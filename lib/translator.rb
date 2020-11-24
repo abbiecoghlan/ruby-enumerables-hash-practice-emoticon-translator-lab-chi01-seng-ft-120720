@@ -13,7 +13,7 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(file, english_emoticon)
-  load_library(file)
+  emoticon_library = load_library(file)
   emoticon_library.each do |key, value|
     
   end   
