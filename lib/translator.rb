@@ -1,6 +1,9 @@
 # require modules here
+require "yaml"
+require pry
 
 def load_library
+  emoticon_library
   # code goes here
 end
 
