@@ -2,8 +2,8 @@
 require "yaml"
 require pry
 
-def load_library
-  emoticon_library
+def load_library(file)
+  emoticon_library = YAML.load_file(file)
   # code goes here
 end
 
