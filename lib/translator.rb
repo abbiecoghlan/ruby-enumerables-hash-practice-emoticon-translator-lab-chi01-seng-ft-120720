@@ -12,7 +12,6 @@ def load_library(file)
   
 #  emoticon_library.each do |key, value
 #  end
-  binding.pry
  
 end
 
