@@ -20,7 +20,7 @@ def get_japanese_emoticon(file, english_emoticon)
 end
 
 def get_english_meaning(file, japanese_emoticon)
-  load_library(file)
+  emoticon_library = load_library(file)
   emoticon_library.each do |key_emotion, value_eng_jap_hashes|
     value_eng_jap_hashes.each do |langauge_key, emoticon_value|
       if value_eng_jap_hashes[langauge_key] == japanese_emoticon
