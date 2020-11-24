@@ -12,7 +12,7 @@ def load_library(file)
   
 #  emoticon_library.each do |key, value
 #  end
- 
+ emoticon_library
 end
 
 def get_japanese_emoticon
